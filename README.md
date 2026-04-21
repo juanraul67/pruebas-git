@@ -92,3 +92,6 @@ Esto provoca que se nos reinicie todo el espacio de trabajo incluso lo que estab
 Esto provoca que se nos reinicie todo el espacio de trabajo incluso lo que estaba en staging excepto los ficheros que están en untracked. Podemos añadir aquí contenido.
 >>>>>>> d23aa9b (Fix README.md)
 
+# PASO 4
+
+En el paso 4 vamos a ver los posibles conflictos de merge que pueden ocurrir al trabajar con varias ramas que están actualizando las mismas líneas del mismo fichero.
