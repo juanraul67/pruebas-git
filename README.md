@@ -26,3 +26,9 @@ git commit -m "README.md added" #Nos hace el commit con el título (por eso la o
 git push origin main #Este comando nos sube el repositorio en el estado de nuestro repositorio local al remoto y lo fusiona a la vez.
 # Esto último lo hace en la rama main (veremos las ramas y su gestión más adelante)
 ```
+
+Podemos ver la lista de commits con el comando siguiente:
+
+```bash
+git log # Nos va a mostrar todos los commits realizados hasta este momento en el repositorio con su autor y hash
+```
