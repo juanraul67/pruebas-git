@@ -47,3 +47,5 @@ git checkout <rama> # Nos sirve apra cambiar el HEAD (puntero de la rama en la q
 git checkout -b <rama> # Esto hace lo mismo que el comando anterior pero creándonos la rama
 ```
 Vamos a crear una rama llamada documentation que tenga una carpeta llamada docs y dentro dos archivos llamados index.html y styless.css
+
+Una vez hecho eso vamos a cambiar a la rama main y modificar el README.md (como estoy haciendo ahora)
