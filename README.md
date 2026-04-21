@@ -91,3 +91,6 @@ Esto provoca que se nos reinicie todo el espacio de trabajo incluso lo que estab
 # PASO 4
 
 En el paso 4 vamos a ver los posibles conflictos de merge que pueden ocurrir al trabajar con varias ramas que están actualizando las mismas líneas del mismo fichero.
+El problema lo hemos podido arreglar eligiendo que cambios queríamos para la rama main y la rama fix-readme, además luego hemos añadido el contenido del paso 4 (este mismo).
+
+Se pueden ver los commits de ambas ramas en el repositorio junto a sus fast-forward merge.
