@@ -94,3 +94,15 @@ En el paso 4 vamos a ver los posibles conflictos de merge que pueden ocurrir al 
 El problema lo hemos podido arreglar eligiendo que cambios queríamos para la rama main y la rama fix-readme, además luego hemos añadido el contenido del paso 4 (este mismo).
 
 Se pueden ver los commits de ambas ramas en el repositorio junto a sus fast-forward merge.
+
+# PASO 5
+
+En el caso de que queramos trabajar de manera colaborativa es muy importante este comando:
+
+```bash
+git pull
+```
+
+Además en el caso de que queramos hacer una nueva feature de nuestro software debemos crear una nueva rama y al hacer push se crea lo que se llama **pull-request**. Esto consiste
+en una petición de hacer merge a main para poder revisar los cambios nuevos que vamos a implementar. Esto nos ayuda a poder comprobar que los cambios que vamos a añadir
+están bien integrados.
