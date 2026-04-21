@@ -58,3 +58,21 @@ git log --graph --all --oneline
 Podemos ver las ramas que tenemos en nuestro repositorio.
 
 Vamos a volver a la rama documentation y vamos a añadir un par de commits más.
+
+## PASO 2.5 (Mezcla)
+
+Como hemos creado dos ramas ahora vamos a querer mezclarlas. Cómo nuestra rama principal va a ser  main primero debemos situarnos en ella y utilizar estos comandos.
+
+```bash
+git checkout main
+git merge <rama> # Esto hará que se mezcle la rama en la que estamos actualmente con la que hemos seleccionado en el comando.
+```
+Después de esto se nos genera un commit automático de merge que querremos subir con un *git push* al repositorio remoto para que esté actualizado.
+
+Hay varias estrategias para poder mezclar ramas:
+
+- Merge.
+- Merge con squash.
+- Fast-forward merge.
+
+Cada una de ellas tiene sus diferencias y utilizaremos la que más nos convenga.
