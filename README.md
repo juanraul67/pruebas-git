@@ -76,3 +76,15 @@ Hay varias estrategias para poder mezclar ramas:
 - Fast-forward merge.
 
 Cada una de ellas tiene sus diferencias y utilizaremos la que más nos convenga.
+
+
+# PASO 3
+
+En el caso de que queramos eliminar información de los commit de la rama en la qu estamos trabajando podemos utilizar el siguiente comando
+
+```bash
+git reset --hard HEAD
+```
+
+Esto provoca que se nos reinicie todo el espacio de trabajo incluso lo que estaba en staging excepto los ficheros que están en untracked.
+
