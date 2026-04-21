@@ -49,3 +49,10 @@ git checkout -b <rama> # Esto hace lo mismo que el comando anterior pero creánd
 Vamos a crear una rama llamada documentation que tenga una carpeta llamada docs y dentro dos archivos llamados index.html y styless.css
 
 Una vez hecho eso vamos a cambiar a la rama main y modificar el README.md (como estoy haciendo ahora)
+
+Cuando hemos terminado estos pasos si vemos el log en forma de grafo con el comando siguiente:
+
+```bash
+git log --graph --all --oneline
+```
+Podemos ver las ramas que tenemos en nuestro repositorio.
