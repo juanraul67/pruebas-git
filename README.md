@@ -56,3 +56,5 @@ Cuando hemos terminado estos pasos si vemos el log en forma de grafo con el coma
 git log --graph --all --oneline
 ```
 Podemos ver las ramas que tenemos en nuestro repositorio.
+
+Vamos a volver a la rama documentation y vamos a añadir un par de commits más.
