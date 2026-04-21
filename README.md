@@ -32,3 +32,18 @@ Podemos ver la lista de commits con el comando siguiente:
 ```bash
 git log # Nos va a mostrar todos los commits realizados hasta este momento en el repositorio con su autor y hash
 ```
+
+# PASO 2 (RAMAS)
+
+En este paso vamos a ver cómo podemos crear nuevas ramas en nuestro repositorio y cómo gestionarlas.
+
+Comandos importantes para trabajar con ramas:
+
+```bash
+git branch featrue1 # Sirve para crear una nueva rama
+git branch --list # Nos muestra por pantalla las ramas creadas en nuestro repositorio
+git branch -d <rama> # Elimina una rama
+git checkout <rama> # Nos sirve apra cambiar el HEAD (puntero de la rama en la que estamos trabajando) para trabajar en la rama que queremos
+git checkout -b <rama> # Esto hace lo mismo que el comando anterior pero creándonos la rama
+```
+Vamos a crear una rama llamada documentation que tenga una carpeta llamada docs y dentro dos archivos llamados index.html y styless.css
