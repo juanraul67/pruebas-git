@@ -86,5 +86,9 @@ En el caso de que queramos eliminar información de los commit de la rama en la 
 git reset --hard HEAD
 ```
 
+<<<<<<< HEAD
 Esto provoca que se nos reinicie todo el espacio de trabajo incluso lo que estaba en staging excepto los ficheros que están en untracked. Si hacemos cambios aquí puede provocar un conflicto de merge.
+=======
+Esto provoca que se nos reinicie todo el espacio de trabajo incluso lo que estaba en staging excepto los ficheros que están en untracked. Podemos añadir aquí contenido.
+>>>>>>> d23aa9b (Fix README.md)
 
